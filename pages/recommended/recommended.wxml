@@ -1,0 +1,2 @@
+<import src="../common/listview.wxml"/>
+<template is="movie-list" data="{{ movies, loading, hasMore, loadMore }}"/>

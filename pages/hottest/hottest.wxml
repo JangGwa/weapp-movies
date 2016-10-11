@@ -1,0 +1,13 @@
+<import src="../common/listview.wxml"/>
+<view class="container">
+  <view class="head">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{items}}" wx:for-index="index">
+        <swiper-item>
+          <image src="{{item.images.large}}" class="slide-image" mode="aspectFill"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <template is="movie-list" data="{{ movies, loading, hasMore, loadMore }}"/>
+</view>

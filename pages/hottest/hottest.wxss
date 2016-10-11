@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  font-size: 32rpx;
+}
+.head {
+  line-height: 1;
+}
+.body {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  flex: 1;
+  overflow: auto;
+}
+.swiper {
+  height: 350rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
